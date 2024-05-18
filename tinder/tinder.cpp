@@ -5,13 +5,7 @@
 #include <vector>
 
 
-using std::map;
-using std::pair;
-using std::endl;
-using std::cout;
-using std::cin;
-using std::string;
-using std::vector;
+using std::map, std::pair, std::endl, std::cout, std::cin, std::string, std::vector;
 
 bool Contains(string name, map<string, string>mapa) {
     for (auto i = mapa.begin(); i != mapa.end(); i++) {
